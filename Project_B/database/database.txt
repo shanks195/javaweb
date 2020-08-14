@@ -1,0 +1,7 @@
+database:
+INSERT INTO mytable VALUES(1,'will');
+UPDATE mytable SET name = 'willy' WHERE id = 1;
+DELETE FROM mytable WHERE id=1;
+SELECT id, name FROM mytable;
+SELECT id, name FROM mytable;
+SELECT count(1) from mytable;
